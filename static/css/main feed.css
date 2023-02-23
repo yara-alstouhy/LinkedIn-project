@@ -1,0 +1,125 @@
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 6vh;
+}
+
+.line img {
+    height: 20px;
+    width: 29vw;
+    margin-top: 16px;
+}
+
+#sort {
+    color: #666666;
+    margin-left: 2px;
+}
+
+.post1 {
+    margin: 1% 0;
+    border-width: .1vw;
+    padding: 1vh;
+    width: 35.28vw;
+    background-color: white;
+    border: 0.5px solid #E0DFDC;
+    border-radius: 15px;
+}
+
+.image1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.acc-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+.dot {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    size: 10px;
+}
+
+.image1 img {
+    margin-left: 1.50vw;
+    width: 5vw;
+    height: 10vh;
+    display: inline;
+    position: relative;
+    margin-top: .50vh;
+    border-radius: 100%;
+}
+
+.followers {
+    font-size: small;
+    color: #666666;
+}
+
+.now {
+    font-size: small;
+    color: #666666;
+}
+
+.acc-name {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+/* part2 */
+
+.image2 img {
+    width: 100%;
+    padding-top: 2%;
+}
+
+.container {
+
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 0;
+    border-top: 0.6px solid #edece7;
+    margin-bottom: 1%;
+}
+
+.post-but {
+    height: 5vh;
+    width: 10vw;
+    padding: 1% 0 0 5%;
+}
+
+.post-but:hover {
+    background-color: #eeedea;
+}
+
+.text {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    color: rgb(2, 69, 2);
+}
+
+.see {
+    color: blue;
+}
+
+.repost {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+body {
+    font-size: 1rem;
+}
